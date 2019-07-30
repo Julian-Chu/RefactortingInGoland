@@ -2,6 +2,6 @@ package demo2
 
 import "fmt"
 
-func PrintHelloInConsole() {
-	fmt.Println("Hello! " + "Tom")
+func RunProcess() {
+	fmt.Println("Hello!" + " " + "Tom")
 }
