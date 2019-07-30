@@ -24,13 +24,3 @@ func Call_Send2() {
 	m := NewMessageService()
 	m.Pass("hello", "")
 }
-
-func Call_Send3() {
-	m := NewMessageService()
-	m.Pass("hello", "")
-}
-
-func Call_Send4() {
-	m := NewMessageService()
-	m.Pass("hello", "")
-}

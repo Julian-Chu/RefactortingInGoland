@@ -1,5 +1,15 @@
 package demo1
 
+func Call_Send3() {
+	m := NewMessageService()
+	m.Pass("hello", "")
+}
+
+func Call_Send4() {
+	m := NewMessageService()
+	m.Pass("hello", "")
+}
+
 func Call_Send5() {
 	m := NewMessageService()
 	m.Pass("hello", "Tom")
