@@ -1,6 +1,9 @@
 package demo3
 
-import "testing"
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
 
 func TestPrice(t *testing.T) {
 	type args struct {
