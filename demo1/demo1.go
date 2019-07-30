@@ -11,6 +11,8 @@ func (m *MessageService) Pass(msg string, customer string) {
 	// some code
 }
 
+func Pass() {}
+
 //Call_Send1
 func Call_Send1() {
 	m := NewMessageService()
