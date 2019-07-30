@@ -5,7 +5,7 @@ type GoogleAuthService struct {
 }
 
 func (g GoogleAuthService) Verify(username, password string) (bool, error) {
-	// implement ....
+	// implementation ....
 	return true, nil
 }
 
